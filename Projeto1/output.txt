@@ -1,0 +1,120 @@
+Teste 1:
+
+Polinômio G(X): 
+1X^3 + 11X^2 + 34X^1 + 24
+
+Mensagem M(X): 
+97X^3 + 21X^2 + 44X^1 + 42
+Polinômio codificado P(X): 
+97X^6 + 1088X^5 + 3573X^4 + 3568X^3 + 2462X^2 + 2484X^1 + 1008
+Nenhum erro detectado.
+Mensagem decodificada M'(X): 
+97X^3 + 21X^2 + 44X^1 + 42
+Polinômio codificado P(X) com ruído em 2 dos coeficientes: 
+97X^6 + 1095X^5 + 3579X^4 + 3568X^3 + 2462X^2 + 2484X^1 + 1008
+Erros detectados após adicionar ruído!
+
+Mensagem M(X): 
+37X^3 + 53X^2 + 6X^1 + 63
+Polinômio codificado P(X): 
+37X^6 + 460X^5 + 1847X^4 + 2819X^3 + 2169X^2 + 2286X^1 + 1512
+Nenhum erro detectado.
+Mensagem decodificada M'(X): 
+37X^3 + 53X^2 + 6X^1 + 63
+Polinômio codificado P(X) com ruído em 2 dos coeficientes: 
+37X^6 + 466X^5 + 1847X^4 + 2822X^3 + 2169X^2 + 2286X^1 + 1512
+Erros detectados após adicionar ruído!
+
+Mensagem M(X): 
+43X^3 + 15X^2 + 48X^1 + 50
+Polinômio codificado P(X): 
+43X^6 + 488X^5 + 1675X^4 + 2120X^3 + 2542X^2 + 2852X^1 + 1200
+Nenhum erro detectado.
+Mensagem decodificada M'(X): 
+43X^3 + 15X^2 + 48X^1 + 50
+Polinômio codificado P(X) com ruído em 2 dos coeficientes: 
+43X^6 + 490X^5 + 1683X^4 + 2120X^3 + 2542X^2 + 2852X^1 + 1200
+Erros detectados após adicionar ruído!
+
+Mensagem M(X): 
+18X^3 + 59X^2 + 40X^1 + 99
+Polinômio codificado P(X): 
+18X^6 + 257X^5 + 1301X^4 + 2977X^3 + 3865X^2 + 4326X^1 + 2376
+Nenhum erro detectado.
+Mensagem decodificada M'(X): 
+18X^3 + 59X^2 + 40X^1 + 99
+Polinômio codificado P(X) com ruído em 2 dos coeficientes: 
+18X^6 + 257X^5 + 1301X^4 + 2977X^3 + 3865X^2 + 4326X^1 + 2393
+Erros detectados após adicionar ruído!
+
+Mensagem M(X): 
+7X^3 + 45X^2 + 22X^1 + 60
+Polinômio codificado P(X): 
+7X^6 + 122X^5 + 755X^4 + 2000X^3 + 2488X^2 + 2568X^1 + 1440
+Nenhum erro detectado.
+Mensagem decodificada M'(X): 
+7X^3 + 45X^2 + 22X^1 + 60
+Polinômio codificado P(X) com ruído em 2 dos coeficientes: 
+7X^6 + 122X^5 + 762X^4 + 2007X^3 + 2488X^2 + 2568X^1 + 1440
+Erros detectados após adicionar ruído!
+
+Teste 2:
+
+Polinômio G(X): 
+1X^5 + 25X^4 + 238X^3 + 1054X^2 + 2065X^1 + 1225
+
+Mensagem M(X): 
+37X^5 + 7X^4 + 2X^3 + 91X^2 + 76X^1 + 87
+Polinômio codificado P(X): 
+37X^10 + 932X^9 + 8983X^8 + 40805X^7 + 86610X^6 + 85533X^5 + 128882X^4 + 291175X^3 + 360113X^2 + 272755X^1 + 106575
+Nenhum erro detectado.
+Mensagem decodificada M'(X): 
+37X^5 + 7X^4 + 2X^3 + 91X^2 + 76X^1 + 87
+Polinômio codificado P(X) com ruído em 2 dos coeficientes: 
+37X^10 + 932X^9 + 8983X^8 + 40805X^7 + 86610X^6 + 85543X^5 + 128882X^4 + 291175X^3 + 360113X^2 + 272755X^1 + 106584
+Erros detectados após adicionar ruído!
+
+Mensagem M(X): 
+92X^5 + 49X^4 + 52X^3 + 86X^2 + 75X^1 + 10
+Polinômio codificado P(X): 
+92X^10 + 2349X^9 + 23173X^8 + 110016X^7 + 256227X^6 + 291046X^5 + 276149X^4 + 322720X^3 + 270765X^2 + 112525X^1 + 12250
+Nenhum erro detectado.
+Mensagem decodificada M'(X): 
+92X^5 + 49X^4 + 52X^3 + 86X^2 + 75X^1 + 10
+Polinômio codificado P(X) com ruído em 2 dos coeficientes: 
+96X^10 + 2349X^9 + 23173X^8 + 110016X^7 + 256228X^6 + 291046X^5 + 276149X^4 + 322720X^3 + 270765X^2 + 112525X^1 + 12250
+Erros detectados após adicionar ruído!
+
+Mensagem M(X): 
+79X^5 + 88X^4 + 92X^3 + 95X^2 + 37X^1 + 23
+Polinômio codificado P(X): 
+79X^10 + 2063X^9 + 21094X^8 + 106605X^7 + 280195X^6 + 399021X^5 + 407291X^4 + 353347X^3 + 217022X^2 + 92820X^1 + 28175
+Nenhum erro detectado.
+Mensagem decodificada M'(X): 
+79X^5 + 88X^4 + 92X^3 + 95X^2 + 37X^1 + 23
+Polinômio codificado P(X) com ruído em 2 dos coeficientes: 
+79X^10 + 2063X^9 + 21094X^8 + 106611X^7 + 280195X^6 + 399021X^5 + 407291X^4 + 353347X^3 + 217022X^2 + 92820X^1 + 28178
+Erros detectados após adicionar ruído!
+
+Mensagem M(X): 
+55X^5 + 11X^4 + 83X^3 + 6X^2 + 8X^1 + 46
+Polinômio codificado P(X): 
+55X^10 + 1386X^9 + 13448X^8 + 62669X^7 + 145081X^6 + 179246X^5 + 194248X^4 + 133445X^3 + 72354X^2 + 104790X^1 + 56350
+Nenhum erro detectado.
+Mensagem decodificada M'(X): 
+55X^5 + 11X^4 + 83X^3 + 6X^2 + 8X^1 + 46
+Polinômio codificado P(X) com ruído em 2 dos coeficientes: 
+55X^10 + 1386X^9 + 13448X^8 + 62669X^7 + 145081X^6 + 179246X^5 + 194248X^4 + 133453X^3 + 72354X^2 + 104790X^1 + 56359
+Erros detectados após adicionar ruído!
+
+Mensagem M(X): 
+87X^5 + 26X^4 + 84X^3 + 48X^2 + 49X^1 + 97
+Polinômio codificado P(X): 
+87X^10 + 2201X^9 + 21440X^8 + 100034X^7 + 228300X^6 + 261547X^5 + 269989X^4 + 276752X^3 + 262223X^2 + 260330X^1 + 118825
+Nenhum erro detectado.
+Mensagem decodificada M'(X): 
+87X^5 + 26X^4 + 84X^3 + 48X^2 + 49X^1 + 97
+Polinômio codificado P(X) com ruído em 2 dos coeficientes: 
+87X^10 + 2201X^9 + 21443X^8 + 100034X^7 + 228300X^6 + 261547X^5 + 269989X^4 + 276759X^3 + 262223X^2 + 260330X^1 + 118825
+Erros detectados após adicionar ruído!
+

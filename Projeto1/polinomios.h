@@ -2,9 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-int32_t karatsuba(int32_t u, int32_t v) {
-    if 
-}
+
 
 uint32_t *multiplica_polinomio(uint32_t grau, const uint32_t *coef1, const uint32_t *coef2)
 {
@@ -20,14 +18,8 @@ int32_t avalia_polinomio(int32_t x, uint32_t grau, const uint32_t *coef)
 {
     // Você deve implementar essa função
     // Avalia o polinômio de grau "grau" com coeficientes "coef" no ponto "x"
-    uint32_t pot = 1;
-    int32_t res = 0;
-    for (int i = grau; i >= 0; i--) {
-        res += coef[i]*pot;
-        pot *= x;
-    }
-    return !(res == 0);
 }
+
 
 // Decodifica
 uint32_t *divide_por_binomio(uint32_t grau, uint32_t *coef, int32_t raiz)

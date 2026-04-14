@@ -19,7 +19,6 @@ int main(int argc, char *argv[])
     int num_testes;
     fgets(buffer, sizeof(buffer), fptr);
     num_testes = atoi(buffer);
-    printf("Número de testes: %d\n", num_testes);
 
 
     for (int i = 0; i < num_testes; i++)
@@ -54,6 +53,15 @@ int main(int argc, char *argv[])
             uint32_t *P = multiplica_polinomio(grau, G, mensagem);
             end = clock();
             cpu_time_used = cpu_time_used + ((double)(end - start));
+            
+            // Verifica erros antes de adicionar ruído
+            if(verifica_erros(grau * 2, P, grau, raizes)){
+                printf("Erro detectado antes de adicionar ruído\n");
+            };
+
+            // Exibe o polinômio resultante da multiplicação
+            imprime_polinomio(grau * 2, P);
+
             adiciona_ruido(grau * 2, P, 5); // Adiciona ruído em 5 coeficientes aleatórios
             if(verifica_erros(grau * 2, P, grau, raizes)){
                 printf("Ruído identificado\n");
