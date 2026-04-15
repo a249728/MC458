@@ -9,7 +9,7 @@
 int main(int argc, char *argv[])
 {   
     clock_t start, end;
-    double cpu_time_used;
+    double cpu_time_used = 0.0;
 
     FILE *fptr;
     fptr = fopen("input.txt", "r");
